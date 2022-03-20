@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// MARK: FRUITS DATA
+// MARK: - FRUITS DATA
 
 let fruitsData: [Fruit] = [
     Fruit(

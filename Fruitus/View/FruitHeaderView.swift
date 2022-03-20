@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct FruitHeaderView: View {
-    //MARK: PROPERTIES
+    //MARK: - PROPERTIES
     
     var fruit: Fruit
     
     @State private var isAnimatingImage: Bool = false
     
-    //MARK: BODY
+    //MARK: - BODY
     var body: some View {
         ZStack{
             LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -34,7 +34,7 @@ struct FruitHeaderView: View {
     }
 }
 
-//MARK: PREVIEW
+//MARK: - PREVIEW
 
 struct FruitHeaderView_Previews: PreviewProvider {
     static var previews: some View {
